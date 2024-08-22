@@ -1,0 +1,148 @@
+.container {
+  margin:100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.container .box {
+  background-color: blue;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+.container .inputs .input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+/* ################################## */
+.top-btn,
+.bottom-btn {
+  background-color: red;
+  border-radius: 5px;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.bottom-btn {
+  background-color: #09c;
+  gap: 20px;
+}
+.popup {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputs-container{
+  width:500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px
+}
+.inputs-container input{
+  padding:10px 0px;
+  width:100%
+}
+.popup ul {
+  list-style: none;
+}
+.popup ul li {
+  width: 100%;
+  background-color: red;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+/*#########################*/
+.navbar,
+.second-navbar{
+  width:100%;
+background-color: green;
+}
+.navbar ul,
+.second-navbar ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+.navbar ul li,
+.second-navbar ul li{
+  cursor: pointer;
+  position:relative;
+  width:100px;
+  text-align: center;
+}
+.navbar ul li .indecator,
+.second-navbar ul li .indecator{
+ position:absolute;
+ bottom: 0;
+ right:0;
+ background-color: red;
+ height:2px
+}
+.second-navbar ul li .indecator{
+  left:0
+}
+/*############################*/
+.counter-animate{
+ border:1px dashed goldenrod;
+ padding:20px
+}
+.counter-animate .count{
+background-color: red;
+padding:10px 20px;
+border-radius: 5px;
+max-width: fit-content;
+}
+.counter-animate .btn{
+  width:150px;
+  padding:10px 0px;
+  margin-top:10px;
+  background-color: #09c;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.scroll-animation{
+  height:100vh;
+  width:100%;
+  position: relative;
+  overflow: hidden;
+}
+.scroll-animation img{
+
+  width:100%;
+  height:100%
+}
+.scroll-animation .content{
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: rgba(0,0,0,.5);
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
